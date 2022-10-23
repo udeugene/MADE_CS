@@ -6,3 +6,6 @@ def solve_square_eq(a, b, c):
         return None
     else:
         return (-b + d ** 0.5) / (2 * a), (-b - d ** 0.5) / (2 * a)
+
+assert solve_square_eq(4, 32, 48) == (-2, -6)
+assert solve_square_eq(7, -1, 2) is None
