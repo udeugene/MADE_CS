@@ -9,3 +9,5 @@ def solve_square_eq(a, b, c):
 
 assert solve_square_eq(4, 32, 48) == (-2, -6)
 assert solve_square_eq(7, -1, 2) is None
+
+assert math.isclose(solve_square_eq(4, -7, 0)[0], 7 / 4)
